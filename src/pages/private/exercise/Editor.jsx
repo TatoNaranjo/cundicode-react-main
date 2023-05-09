@@ -59,7 +59,7 @@ function Editor(props) {
             setVersion("4");
         } else {
             if (event.target.value === 'python3') {
-                setEditorLanguage('python');f
+                setEditorLanguage('python');
                 setVersion("1");
             } else {
                 setEditorLanguage('c_cpp');
