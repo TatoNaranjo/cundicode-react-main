@@ -236,12 +236,33 @@ img {
 }
 .boton--azul{
   background-color: #1d577e;
+  box-shadow: #2B9720 7px 10px 0px 0px;
+}
+.boton--azul:hover{
+  box-shadow: #1d577e 7px 7px 0px 0px;
+  background-color: #2B9720;
+  transition: 200ms;
 }
 .boton--gris{
   background-color: #588991;
+  box-shadow: #596475 7px 10px 0px 0px;
+}
+.boton--gris:hover{
+  background-color: #596475;
+  box-shadow: #588991 7px 7px 0px 0px;
+  transition: 200ms;
+  
 }
 .boton--confirm{
-  background-color: #09BC8A;
+  background-color: #709176;
+  box-shadow: #14213D 7px 10px 0px 0px;
+
+}
+.boton--confirm:hover{
+  background-color: #14213D;
+  box-shadow: #709176 7px 7px 0px 0px;
+  
+  transition: 200ms;
 }
 .cursos{
     list-style: none;
